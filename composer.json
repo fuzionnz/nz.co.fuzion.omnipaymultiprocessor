@@ -29,13 +29,14 @@
     {
         "omnipay/omnipay": "~2.0",
         "dioscouri/omnipay-cybersource": "master",
+        "burnbright/omnipay-paystation": "~2.0",
+        "fzaninotto/faker": "^1.6@dev",
         "alfaproject/omnipay-skrill": "dev-master",
         "omnipay/bitpay": "dev-master",
         "fuzion/omnipay-paybox": "dev-master",
         "sergej-koscejev/omnipay-gopay": "dev-master",
         "civicrm/omnipay-paypalstandard": "dev-master",
         "pointybeard/omnipay-nabtransact": "dev-transact",
-        "fzaninotto/faker": "^1.6@dev",
         "omnipay/paymentexpress": "dev-master",
         "omnipay/authorizenet": "dev-master"
     },
@@ -44,5 +45,4 @@
         "omnipay/tests": "~2.0"
     },
     "minimum-stability": "dev"
-
 }
