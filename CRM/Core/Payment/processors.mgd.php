@@ -426,4 +426,23 @@ return array(
       'supports_preapproval' => 1,
     ),
   ),
+  17 => array(
+    'name' => 'OmniPay - PayStation (Hosted)',
+    'entity' => 'payment_processor_type',
+    'params' => array(
+      'version' => 3,
+      'title' => 'OmniPay - Paystation',
+      'name' => 'omnipay_Paystation_Hosted',
+      'description' => 'Omnipay - Paystation Hosted Payment Processor',
+      'user_name_label' => 'paystationId',
+      'password_label' => 'gatewayId',
+      'signature_label' => 'hmacKey',
+      'class_name' => 'Payment_OmnipayMultiProcessor',
+      'url_site_default' => '',
+      'url_api_default' => '',
+      'billing_mode' => 4,
+      'payment_type' => 1,
+      'supports_preapproval' => 0,
+    ),
+  ),
 );
