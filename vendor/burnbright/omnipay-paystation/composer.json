@@ -1,0 +1,41 @@
+{
+    "name": "burnbright/omnipay-paystation",
+    "type": "library",
+    "description": "Paystation driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "paystation",
+        "payment"
+    ],
+    "homepage": "https://github.com/burnbright/omnipay-paystation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net",
+            "homepage": "http://jeremyshipman.com"
+        },
+        {
+            "name": "Leith Caldwell",
+            "email": "leith@codedruids.com",
+            "homepage": "http://codedruids.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Paystation\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
